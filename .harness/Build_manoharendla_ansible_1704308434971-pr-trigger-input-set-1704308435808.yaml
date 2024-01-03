@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_manoharendla_ansible_1704308434971-pr-trigger-input-set
+  identifier: Build_manoharendla_ansible_1704308434971prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_manoharendla_ansible_1704308434971
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
