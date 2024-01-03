@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_manoharendla_ansible_1704308434971-push-trigger-input-set
+  identifier: Build_manoharendla_ansible_1704308434971pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_manoharendla_ansible_1704308434971
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
